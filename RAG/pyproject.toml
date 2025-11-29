@@ -1,0 +1,20 @@
+[project]
+requires-python = ">=3.8"
+version = "1.0"
+name = "RAG"
+dependencies = [
+  "transformers<4.54.0",
+  "torch",
+  "chromadb",
+  # "vllm",
+  "accelerate",
+  "torchvision",
+  "torchaudio"
+]
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[tool.setuptools]
+packages = []  
