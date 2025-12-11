@@ -1,0 +1,7 @@
+data/oxford-iiit-pet
+data/custom_images
+.vs
+__pycache__
+venv
+model/*.pth
+results/*.png
